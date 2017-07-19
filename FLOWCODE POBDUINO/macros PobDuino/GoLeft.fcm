@@ -1,0 +1,14 @@
+<root>
+<file schema='101' />
+<macros >
+<macro >
+<flowline name='GoLeft' description='tourne a gauche' >
+<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+<param name='Speed' type='s16' description='vitesse moteurs' isconst='0' isinit='0' usrinit='0' setinit='' />
+<command class_type='native' title='' ccode='Motor(&apos;L&apos;, &apos;R&apos;, FCL_SPEED);
+Motor(&apos;R&apos;, &apos;F&apos;, FCL_SPEED);' cmdcolor='3389439' cmdcolor_sec='3389439' language='C' />
+</flowline>
+</macro>
+</macros>
+<variables />
+</root>

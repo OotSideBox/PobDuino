@@ -1,0 +1,16 @@
+<root>
+<file schema='101' />
+<macros >
+<macro >
+<flowline name='SerialPrintValue' description='envoi d&apos;une valeur sur le port serie (9600 bauds)' >
+<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+<param name='Value' type='s16' description='valeur a envoyer' isconst='0' isinit='0' usrinit='0' setinit='' />
+<command class_type='native' title='' ccode='char String[] =&quot;VALUEVALUE\0&quot;;
+sprintf(String, &quot;Value=%d\0&quot;,FCL_VALUE);
+SerialPrint(&quot;\n&quot;);
+SerialPrint(String);' cmdcolor='3389439' cmdcolor_sec='3389439' language='C' />
+</flowline>
+</macro>
+</macros>
+<variables />
+</root>

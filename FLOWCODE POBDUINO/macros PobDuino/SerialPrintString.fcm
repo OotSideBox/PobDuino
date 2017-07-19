@@ -1,0 +1,18 @@
+<root>
+<file schema='101' />
+<macros >
+<macro >
+<flowline name='SerialPrintString' description='envoi d&apos;une chaine de texte sur liaison serie (9600 bauds)' >
+<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+<param name='Text' type='T8' description='texte a envoyer' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+<array size='80' />
+</param>
+<command class_type='native' title='' ccode='SerialPrint(&quot;\n&quot;);
+SerialPrint(PFCL_TEXT);
+SerialPrint(&quot;\n&quot;);
+' cmdcolor='3389439' cmdcolor_sec='3389439' language='C' />
+</flowline>
+</macro>
+</macros>
+<variables />
+</root>

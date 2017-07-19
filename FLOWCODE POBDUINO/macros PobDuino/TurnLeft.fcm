@@ -1,0 +1,13 @@
+<root>
+<file schema='101' />
+<macros >
+<macro >
+<flowline name='TurnLeft' description='tourne a gauche d&apos;un certain angle' >
+<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+<param name='Angle' type='s16' description='angle en degres' isconst='0' isinit='0' usrinit='0' setinit='' />
+<command class_type='native' title='' ccode='Rotation(&apos;L&apos;, FCL_ANGLE);' cmdcolor='3389439' cmdcolor_sec='3389439' language='C' />
+</flowline>
+</macro>
+</macros>
+<variables />
+</root>
